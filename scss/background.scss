@@ -411,6 +411,18 @@ header nav ul li a::before {
       }
     }
   }
+  .phan__2 {
+    &__head {
+      &__con {
+        &__right {
+          span {
+            margin-right: 4px !important;
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
 }
 @keyframes ngangg {
   16.6666% {

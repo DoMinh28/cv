@@ -349,6 +349,10 @@ header nav ul li a::before {
   .phan__6__con__right__con__3__anh span {
     font-size: 12px !important;
   }
+  .phan__2__head__con__right span {
+    margin-right: 4px !important;
+    font-size: 14px !important;
+  }
 }
 
 @keyframes ngangg {
