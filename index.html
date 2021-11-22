@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đỗ Minh</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- forn nghệ nghệ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://www.paceit.co.uk/wp-content/uploads/2021/07/reactjs-development-company.png"
+    />
+    <!-- <link rel="stylesheet" href="./css/index.css" /> -->
+    <link rel="stylesheet" href="./css/background.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h1>Đỗ Minh</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">News</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+        <button>BUY NOW</button>
+      </nav>
+      <div class="bar" onclick="showNavPhone()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-phone" id="nav-phone">
+        <div class="nav-phone__nav-content">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>News</li>
+            <li>contact</li>
+          </ul>
+          <button>BUY NOW</button>
+          
+          <div class="nav-phone__nav-content__icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </div>
+
+        <div class="out" onclick="outNavPhone()">
+          <i class="fas fa-times-circle"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="background" id="particles-js">
+      <div data-aos="fade-right" class="wrapper">
+        <div class="background__content">
+          <div class="background__content__name">
+            <h1>Đỗ Minh</h1>
+          </div>
+          <div class="background__content__skill">
+            <ul>
+              <li>C/Java-Developer</li>
+              <li>Back-End Developer</li>
+              <li>Front-End Developer</li>
+              <li>C/Java-Developer</li>
+            </ul>
+          </div>
+          <div class="background__content__form">Based in HCM City</div>
+          <div class="background__content__button">
+            <a
+              href="https://www.facebook.com/profile.php?id=100012679055290"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"></i>
+              <span>Connect to Me</span>
+            </a>
+            <a href="https://www.instagram.com/minhdo520/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <span>Connect to Me</span>
+            </a>
+            <a
+              href="https://www.tiktok.com/@MS4wLjABAAAA7iHC6XUsbxwr1dMmnxaSGc7KlGHKuhG6CLE7s-FlgxhL6wxmC9-m9AxVjMaKYrua?is_copy_url=1&is_from_webapp=v1&lang=vi-VN"
+              target="_blank"
+            >
+              <i class="fab fa-tiktok"></i>
+              <span>Connect to Me</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phan__1">
+      <div class="phan__1__con">
+        <div
+          class="phan__1__con__left"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <img
+            src="http://shanereact.ibthemespro.com/img/about/1.jpg"
+            alt="ảnh"
+          />
+        </div>
+        <div class="phan__1__con__right">
+          <div
+            class="phan__1__con__right__dau"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <span>About Me</span>
+            <h1>Creative Independent Web Developer based in USA</h1>
+          </div>
+          <div
+            class="phan__1__con__right__giua"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <p>
+              I'm web designer, and I'm very passionate and dedicated to my
+              work. With 20 years experience as a professional web developer, I
+              have acquired the skills and knowledge necessary to make your
+              project a success. I enjoy every step of the design process, from
+              discussion and collaboration.
+            </p>
+          </div>
+          <div
+            class="phan__1__con__right__cuoi"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phan__2">
+      <div class="phan__2__head">
+        <div class="phan__2__head__con">
+          <div class="phan__2__head__con__left">
+            <span>PORTFOLIO</span>
+            <h1>Creative Portfolio</h1>
+          </div>
+          <div class="phan__2__head__con__right">
+            <span>All</span>
+            <span>Design</span>
+            <span>Branding</span>
+            <span>Photography</span>
+          </div>
+        </div>
+      </div>
+      <div class="phan__2__body">
+        <ul>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            class="aos-init aos-animate"
+          >
+            <img
+              src="http://shanereact.ibthemespro.com/img/portfolio/1.jpg"
+              alt="ảnh"
+              width="100%"
+            />
+            <div>
+              <h3>My Story</h3>
+              <span>Design</span>
+            </div>
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            class="aos-init aos-animate"
+          >
+            <img
+              src="http://shanereact.ibthemespro.com/img/portfolio/2.jpg"
+              alt="ảnh"
+              width="100%"
+            />
+            <div>
+              <h3>Design Trend</h3>
+              <span>Branding</span>
+            </div>
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            class="aos-init aos-animate"
+          >
+            <img
+              src="http://shanereact.ibthemespro.com/img/portfolio/14.jpg"
+              alt="ảnh"
+              width="100%"
+            />
+            <div>
+              <h3>Ice Cream</h3>
+              <span>Photography</span>
+            </div>
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            class="aos-init aos-animate"
+          >
+            <img
+              src="http://shanereact.ibthemespro.com/img/portfolio/22.jpg"
+              alt="ảnh"
+              width="100%"
+            />
+            <div>
+              <h3>Shane Design</h3>
+              <span>Design</span>
+            </div>
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            class="aos-init aos-animate"
+          >
+            <img
+              src="http://shanereact.ibthemespro.com/img/portfolio/7.jpg"
+              alt="ảnh"
+              width="100%"
+            />
+            <div>
+              <h3>Sweet Cherry</h3>
+              <span>Photography</span>
+            </div>
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            class="aos-init aos-animate"
+          >
+            <img
+              src="http://shanereact.ibthemespro.com/img/portfolio/3.jpg"
+              alt="ảnh"
+              width="100%"
+            />
+            <div>
+              <h3>Behance Shoot</h3>
+              <span>Branding</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="phan__3">
+      <div class="phan__3__con">
+        <div
+          class="phan__3__con__left"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          <h2>I have high skills in developing and programming</h2>
+          <p>
+            I am working on a professional, visually sophisticated and
+            technologically proficient, responsive and multi-functional personal
+            portfolio template Shane.
+          </p>
+        </div>
+        <div
+          class="phan__3__con__right"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          <div class="phan__3__con__right__dau">
+            <div class="phan__3__con__right__dau__content">
+              <span>Web Development</span>
+              <span>95%</span>
+            </div>
+            <div class="phan__3__con__right__dau__thanhngang">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="phan__3__con__right__giua">
+            <div class="phan__3__con__right__giua__content">
+              <span>Brand Identity</span>
+              <span>80%</span>
+            </div>
+            <div class="phan__3__con__right__giua__thanhngang">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="phan__3__con__right__cuoi">
+            <div class="phan__3__con__right__cuoi__content">
+              <span>Logo Design</span>
+              <span>90%</span>
+            </div>
+            <div class="phan__3__con__right__cuoi__thanhngang">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phan__4">
+      <div class="phan__4__img">
+        <div></div>
+        <div class="phan__4__img__overlay"></div>
+      </div>
+      <div class="phan__4__content">
+        <div class="phan__4__content__con">
+          <div class="phan__4__content__con__nho">
+            <div
+              class="phan__4__content__con__nho__nut"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <a href="https://youtu.be/ZOoVOfieAF8" target="_blank">
+                <i class="fas fa-play"></i>
+                <div></div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="phan__4__content__con__h1"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <h1>I am delivering beautiful digital products for my clients</h1>
+          </div>
+          <div
+            class="phan__4__content__con__button"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <button>Watch Video</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phan__5">
+      <div class="phan__5__con">
+        <div class="phan__5__con__nho">
+          <ul>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/1.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/2.png"
+                alt=""
+              />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/3.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/4.png"
+                alt=""
+              />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/5.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/6.png"
+                alt=""
+              />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/7.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="http://shanereact.ibthemespro.com/img/partners/8.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="phan__6">
+      <div class="phan__6__con">
+        <div
+          class="phan__6__con__left"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          <span>TESTIMONIALS</span>
+          <h1>What clients say about my portfolio template</h1>
+        </div>
+        <div class="phan__6__con__right" data-aos="fade-right"
+        data-aos-duration="1200">
+          <div class="phan__6__con__right__con">
+            <div class="phan__6__con__right__con__1">
+              <p>
+                We were looking for a logo with a touch of modernism. Arlo
+                grasped our needs and produced a stunning design. Awesome to
+                work with Arlo. Incredibly organized, easy to communicate with,
+                responsive with next iterations.
+              </p>
+              <div class="phan__6__con__right__con__1__anh">
+                <img
+                  src="http://shanereact.ibthemespro.com/img/about/1.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3>Justin Bieber</h3>
+                  <span>Photographer</span>
+                </div>
+              </div>
+            </div>
+            <div class="phan__6__con__right__con__2">
+              <p>
+                I purchased the theme a few weeks ago. I had some issues with
+                the theme, I asked customer support to help me with and they
+                were helpful and kind to help me with all my problems. I
+                definitely recommend this theme to everyone.
+              </p>
+              <div class="phan__6__con__right__con__2__anh">
+                <img
+                  src="http://shanereact.ibthemespro.com/img/about/2.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3>Teodor Federico</h3>
+                  <span>Freelancer</span>
+                </div>
+              </div>
+            </div>
+            <div class="phan__6__con__right__con__3">
+              <p>
+                Really the Code, Support, and design are awesome and its good
+                support they are giving. They give an instant solution to our
+                needs. Really awesome. I will strongly recommend to my friends.
+                Great template, even better service!
+              </p>
+              <div class="phan__6__con__right__con__3__anh">
+                <img
+                  src="http://shanereact.ibthemespro.com/img/about/3.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3>Bauen Fernandes</h3>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="phan__7">
+      <div class="phan__7__con">
+        <div class="phan__7__con__head">
+          <span>NEWS</span>
+          <H1>Latest News</H1>
+        </div>
+        <div class="phan__7__con__body">
+          <ul>
+            <li data-aos="fade-right" data-aos-duration="1200">
+              <div>
+                <img src="http://shanereact.ibthemespro.com/img/news/4.jpg" alt="" width="100%">
+              </div>
+              <h3>Developers watch out for these burnout symptoms</h3>
+              <span>BY</span>
+              <span class="span">ALEX WATSON</span>
+              <span> / 20 MAY 2020</span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">
+              <div>
+                <img src="http://shanereact.ibthemespro.com/img/news/9.jpg" alt="" width="100%">
+              </div>
+              <h3>How to be appreciated for your hard work as a developer</h3>
+              <span>BY</span>
+              <span class="span">BROOK KENNEDY</span>
+              <span> / 07 APRIL 2020</span>
+            </li>
+            <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
+              <div>
+                <img src="http://shanereact.ibthemespro.com/img/news/8.jpg" alt="" width="100%">
+              </div>
+              <h3>How designers and developers can collaborate better</h3>
+              <span>BY</span>
+              <span class="span">PAOLA ATKINS</span>
+              <span> / 02 MARCH 2020</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="phan__8">
+      <div class="phan__8__img">
+        <div class="phan__8__img__overlay">
+          <div class="phan__8__img__overlay__content">
+            <div class="phan__8__img__overlay__content__h3" data-aos="fade-up" data-aos-duration="1200">
+              <h3>Let's work together!</h3>
+            </div>
+            <div class="phan__8__img__overlay__content__button" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+              <button>Make an enquiry</button>
+            </div>
+          </div>
+        </div>
+        <div class="phan__8__img__con"></div>
+      </div>
+    </div>
+    <div class="phan__9">
+      <div class="phan__9__content">
+        <p>© 2021 by NgLinh. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script>
+      function showNavPhone() {
+        // alert("mày mới bấm bar đúng không?")
+        document.getElementById('nav-phone').style.transform = 'none';
+      }
+    </script>
+    <script>
+      function outNavPhone() {
+        // alert("mày mới bấm bar đúng không?")
+        document.getElementById('nav-phone').style.transform =
+          'translateX(-100%)';
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/particle.js"></script>
+    <script>
+      $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 166) {
+          $('.header').css('background-color', '#000');
+          console.log($('.header'));
+        } else {
+          $('.header').css('background-color', 'rgba(0,0,0,0)');
+        }
+      });
+    </script>
+  </body>
+</html>

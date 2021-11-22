@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav li {
+  margin: 0 20px;
+  overflow: hidden;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  align-items: center;
+  z-index: 999;
+}
+
+header nav button {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+header nav button:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+header .logo h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header nav ul li:hover a::after {
+  width: 100%;
+}
+
+header nav ul li a::after {
+  content: '';
+  height: 2.3px;
+  background-color: #fff;
+  display: block;
+  width: 0;
+  transition: all 0.5s;
+  margin-top: 0.7px;
+}
+
+header nav ul li:hover a::before {
+  transform: translateX(0%);
+}
+
+header nav ul li a::before {
+  content: '';
+  height: 2.3px;
+  background-color: #fff;
+  display: flex;
+  transform: translateX(101%);
+  transition: all 0.5s;
+}
+
+.background {
+  height: 100vh;
+  /* background-color: pink; */
+  background-image: url(http://shanereact.ibthemespro.com/img/slider/3.jpg);
+  background-size: cover;
+}
+
+.background__content {
+  background-color: transparent;
+  color: #fff;
+  transform: translateX(300px);
+}
+
+.background__content > * {
+  width: 400px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav-phone {
+  text-align: center;
+}
+
+.nav-phone__nav-content ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-phone__nav-content__icon i {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.nav-phone__nav-content__icon i:hover {
+  transform: translateY(-5px);
+}
+
+.nav-phone button {
+  padding: 20px 40px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 17px;
+  transition: all 0.7s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-phone button:hover {
+  transform: translateY(-5px);
+  background-color: #fff;
+  color: #000;
+}
+
+.out {
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.bar {
+  font-size: 30px;
+  height: fit-content;
+  display: none;
+  cursor: pointer;
+}
+
+.nav-phone {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* reponsive */
+@media only screen and (max-width: 1000px) {
+  header nav {
+    display: none;
+  }
+  header {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  header .logo h1 {
+    color: #333;
+  }
+  .bar {
+    display: block;
+  }
+}
