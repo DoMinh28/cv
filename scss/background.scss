@@ -1552,6 +1552,8 @@ header nav ul li a::before {
     &__con {
       background-image: url(http://shanereact.ibthemespro.com/img/svg/paper.svg);
       transform: rotate(180deg);
+      // background-color: #fff;
+      // color: transparent;
       height: 50px;
       position: absolute;
       top: 0;
@@ -1563,7 +1565,7 @@ header nav ul li a::before {
 .phan__9 {
   background-color: #000;
   width: 100%;
-  height: 130px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1576,5 +1578,7 @@ header nav ul li a::before {
     }
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /*# sourceMappingURL=background.css.map */
